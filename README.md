@@ -87,17 +87,17 @@
 
 *Генерируем публичный ключ и копируем его на удалённый сервер: *
 
-	'ssh-keygen -t rsa -b 2048'
+	ssh-keygen -t rsa -b 2048
 
-	'ssh-copy-id -i /home/andy/.ssh/id_rsa.pub andy@192.168.101.56'
+	ssh-copy-id -i /home/andy/.ssh/id_rsa.pub andy@192.168.101.56
 
-			'или'
+			или
 
-	'ssh-copy-id andy@192.168.101.56'
+	ssh-copy-id andy@192.168.101.56
 
 *Запускаем команду rsync с ключём ограничения скорости 1Мбит/c:*
 
-	'rsync --bwlimit=1MiB --progress -avhe ssh /home/andy/sorochan.avi andy@192.168.101.56:/home/andy/'
+	rsync --bwlimit=1MiB --progress -avhe ssh /home/andy/sorochan.avi andy@192.168.101.56:/home/andy/
 
 
   *Скриншоты задания №3*
