@@ -70,6 +70,8 @@
 
 *Файл конфигурации Task2: [Rsync_Task2](task2-cfg/crontab)*
 
+*Файл лога Task2: [Rsync_Task2](task2-cfg/rsync_log.log)*
+
 
  ---
 
