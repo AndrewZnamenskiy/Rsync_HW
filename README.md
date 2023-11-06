@@ -68,9 +68,9 @@
 ![Commit Task2](https://github.com/AndrewZnamenskiy/Rsync_HW/blob/main/img/task2p2.png)
 
 
-*Файл конфигурации Task2: [Rsync_Task2](task2-cfg/crontab)*
+*Файл конфигурации Task2: [Crontab](task2-cfg/crontab)*
 
-*Файл лога Task2: [Rsync_Task2](task2-cfg/rsync_log.log)*
+*Файл лога Task2: [Rsync_Log](task2-cfg/rsync_log.log)*
 
 
  ---
