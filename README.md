@@ -52,7 +52,7 @@
 	
 	crontab -e
 
-	00 12 * * * rsync -av --delete --log-file=/home/andy/rsync_log.log ~andy/ /tmp/backup/
+	12 00 * * * rsync -av --delete --log-file=/home/andy/rsync_log.log ~andy/ /tmp/backup/
 
 
 
