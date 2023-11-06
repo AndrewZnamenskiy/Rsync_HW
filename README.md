@@ -15,7 +15,7 @@
 #### Команды резервного копирования с проверкой хеш суммы
 
 
-	'rsync -avhc --progress --exclude=".*/" ~andy/* /tmp/backup/'
+	rsync -avhc --progress --exclude=".*/" ~andy/* /tmp/backup/
 	
 	'-a - копировать всё, включая атрибуты'
 	'-h - читаемо для людей'
